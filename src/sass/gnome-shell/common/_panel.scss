@@ -54,8 +54,8 @@
 
   // panel menus
   .panel-button {
-    -natural-hpadding: 8px;
-    -minimum-hpadding: 8px;
+    -natural-hpadding: 2px;
+    -minimum-hpadding: 2px;
     font-weight: normal;
     color: $panel_fg;
     transition-duration: 150ms;
@@ -146,7 +146,7 @@
     }
 
     &#panelActivities {
-      -natural-hpadding: $base_padding * 3;
+      -natural-hpadding: $base_padding;
     }
   }
 
